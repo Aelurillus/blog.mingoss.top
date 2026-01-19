@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Comfortaa', sans-serif !important;
+}
+
+/* 针对 Fluid 主题的一些特定覆盖，确保字体生效 */
+.markdown-body, 
+.navbar-brand,
+.index-header .site-subtitle,
+.post-content,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', sans-serif !important;
+}
